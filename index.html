@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--qr ">
+                            Vào cửa hàng trên ứng dụng
+                            <!-- header qr code  -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-app">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="navbar__label">
+                                Kết nối
+                            </span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-bell"></i>Thông báo</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Đăng Ký</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Đăng Nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list-ul"></i> Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="#" class="category-item__link">Sản phẩm mới</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Du lịch và thể thao</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Nhà cửa đời sống</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- product item  -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/510c5da7dafb52dd4a0fac8c87c31bde_tn);"></div>
+                                        <h4 class="home-product-item__name">Áo hoodie hot nhất mùa đông 2020</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">800.000đ</span>
+                                            <span class="home-product-item__price-current">499.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__ogirin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check-square"></i> Yêu thích
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
